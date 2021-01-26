@@ -18,6 +18,7 @@ const httpLink = createHttpLink({
     uri: 'https://api.github.com/graphql',
 });
 
+const token = process.env.REACT_APP_GITHUB_TOKEN
 const cache = new InMemoryCache();
 const client = new ApolloClient({
     // link: httpLink,
@@ -25,10 +26,7 @@ const client = new ApolloClient({
     cache,
     headers: {
         Accept: "application/json",
-        Authorization: `token 3f2688fc693c1d694260a68cba723bc99a187790`,
-        // Authorization: `token 1c27da9ed2f9d64086bb67c9b3c17f0207d2b5c9`,
-        // Authorization: `token f1ce8aa4d0eaa23b2b4bc076cd72200a51453ad4`,
-        // Authorization:`token ${process.env.REACT_APP_GITHUB_TOKEN}`,
+        Authorization: token ? `Bearer ${token}` : "",
         'content-type': 'application/json',
     }
 });
