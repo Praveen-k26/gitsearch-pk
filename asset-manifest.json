@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/gitsearch-pk/static/css/main.51f3c8f9.chunk.css",
+    "main.js": "/gitsearch-pk/static/js/main.863dc746.chunk.js",
+    "main.js.map": "/gitsearch-pk/static/js/main.863dc746.chunk.js.map",
+    "runtime-main.js": "/gitsearch-pk/static/js/runtime-main.f24f844e.js",
+    "runtime-main.js.map": "/gitsearch-pk/static/js/runtime-main.f24f844e.js.map",
+    "static/js/2.83519a9d.chunk.js": "/gitsearch-pk/static/js/2.83519a9d.chunk.js",
+    "static/js/2.83519a9d.chunk.js.map": "/gitsearch-pk/static/js/2.83519a9d.chunk.js.map",
+    "static/js/3.8f33d142.chunk.js": "/gitsearch-pk/static/js/3.8f33d142.chunk.js",
+    "static/js/3.8f33d142.chunk.js.map": "/gitsearch-pk/static/js/3.8f33d142.chunk.js.map",
+    "index.html": "/gitsearch-pk/index.html",
+    "static/css/main.51f3c8f9.chunk.css.map": "/gitsearch-pk/static/css/main.51f3c8f9.chunk.css.map",
+    "static/js/2.83519a9d.chunk.js.LICENSE.txt": "/gitsearch-pk/static/js/2.83519a9d.chunk.js.LICENSE.txt",
+    "static/media/nyc1.8ff21855.jpg": "/gitsearch-pk/static/media/nyc1.8ff21855.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f24f844e.js",
+    "static/js/2.83519a9d.chunk.js",
+    "static/css/main.51f3c8f9.chunk.css",
+    "static/js/main.863dc746.chunk.js"
+  ]
+}
