@@ -1,0 +1,19 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  background: #18197e;
+  color: white;
+  font-family: "Devanagari Sangam MN";
+  font-weight: 500;
+
+  .nav-title {
+     margin-right: auto;
+    font-size: 150%;
+    padding: 12px 16px;
+  }
+  .nav-item {
+    padding: 16px 16px;
+    cursor: pointer;
+    vertical-align: middle;
+  }
+}

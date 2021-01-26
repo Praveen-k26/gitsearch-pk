@@ -1,0 +1,52 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  position: fixed;
+  height: fit-content;
+
+  padding: 0;
+  color: #4d4d4d;
+  width: 500px;
+  .table {
+    border-collapse: collapse;
+    border: 2px solid #ddd;
+    display: grid;
+    position: relative;
+
+
+    td {
+      border: 1px solid #ddd;
+      padding: 2px;
+    }
+
+
+    .tablehead {
+      padding: 10px;
+      text-align: center;
+      background-color: #6667a9;
+      color: white;
+      th {
+        border: 1px solid #ddd;
+        padding: 12px;
+      }
+
+      td {
+        border: 1px solid #ddd;
+        padding: 2px;
+      }
+    }
+    .tbody {
+      td {
+        border: 1px solid #ddd;
+        padding: 12px;
+      }
+    }
+  }
+
+
+}
+
+
+
+

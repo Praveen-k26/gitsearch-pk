@@ -1,0 +1,67 @@
+{
+  "homepage": "http://Praveen-k26.github.io/gitsearch-pk",
+  "name": "gitsearch",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@apollo/client": "^3.3.7",
+    "@apollo/react-testing": "^4.0.0",
+    "@fortawesome/fontawesome-free-solid": "^5.0.13",
+    "@fortawesome/free-brands-svg-icons": "^5.15.2",
+    "@fortawesome/react-fontawesome": "^0.1.14",
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "apollo-boost": "^0.4.9",
+    "apollo-cache-inmemory": "^1.6.6",
+    "apollo-link-http": "^1.5.17",
+    "font-awesome": "^4.7.0",
+    "graphql": "^15.4.0",
+    "graphql-tag": "^2.11.0",
+    "jest-enzyme": "^7.1.2",
+    "node-sass": "^4.14.1",
+    "react": "^17.0.1",
+    "react-apollo": "^3.1.5",
+    "react-apollo-hooks": "^0.5.0",
+    "react-dom": "^17.0.1",
+    "react-error-boundary": "^3.1.0",
+    "react-icons": "^4.1.0",
+    "react-scripts": "4.0.1",
+    "react-test-renderer": "^17.0.1",
+    "web-vitals": "^0.2.4"
+  },
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "cypress": "cypress open"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "check-prop-types": "^1.1.2",
+    "cypress": "^6.3.0",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.6",
+    "gh-pages": "^3.1.0"
+  }
+}
